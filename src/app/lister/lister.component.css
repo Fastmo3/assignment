@@ -1,0 +1,18 @@
+.btn {
+  text-decoration: none;
+  border-top-color: white;
+  border-left-color: white;
+  border-bottom-color: rgb(128,128,128);
+  border-right-color: rgb(128,128,128);
+  background-color: rgba(212,208,200,255);
+  margin: 2pt;
+}
+
+  .btn:active {
+    text-decoration: none;
+    border-top-color: rgb(128,128,128);
+    border-left-color: rgb(128,128,128);
+    border-bottom-color: white;
+    border-right-color: white;
+    background-color: rgba(212,208,200,255);
+  }

@@ -1,0 +1,16 @@
+<div class="formbox">
+  <div class="titlebar"><b>Register</b></div>
+  <form class="formbox" [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    Username:
+    <br />
+    <input class="form-control" type="text" placeholder="Username" formControlName="username"/>
+    <br />
+    Password:
+    <br />
+    <input class="form-control" type="password" placeholder="password" fromVontrolName="password"/>
+    <br />
+    <button class="btn" type="submit">Register</button>
+    <button class="btn" routerLinkActive="active" routerLink="/login">Back</button>
+  </form>
+
+</div>

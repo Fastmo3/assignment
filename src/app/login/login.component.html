@@ -1,0 +1,15 @@
+<div class="formbox">
+  <div class="titleBar"><b>Login</b></div>
+  <form class="form" [formGroup]="loginForm" (ngSumbit)="onSubmit()">
+    Username:
+    <br />
+    <input class="form-control" type="text" placeholder="Username" formControlName="username" />
+    <br />
+    Password:
+    <br />
+    <input class="form-control" type="password" placeholder="password" formControlName="password" />
+    <br />
+    <button class="btn" type="submit" routerLinkActive="active"> Login</button>
+    <button class="btn" routerLinkActive="active" routerLink="/register">Register</button>
+  </form>  
+</div>

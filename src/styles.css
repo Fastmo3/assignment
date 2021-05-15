@@ -1,0 +1,136 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: lightgray;
+  font: 10pt/12pt verdana;
+  margin: 0;
+}
+
+/*minibanner & elements*/
+#miniBanner {
+  width: 100%;
+  height: 18px;
+  border: 0pt;
+  background: rgb(14, 41, 110);
+  background: linear-gradient(90deg,rgb(14,41,110) 0%, rgb(165,200,238)100%);
+  margin-bottom: 2pt;
+}
+/*X button image on the RHS*/
+#xBtn {
+  border: 1px;
+  margin-left: auto;
+  margin-right: 1pt;
+  margin-top: 1.5pt;
+}
+/*White txt on the image*/
+#miniBarTitle {
+  color: white;
+  margin-left: 5pt;
+}
+/*App icon on the left side of the title*/
+#appIcon {
+  height: 15px
+}
+
+/*General Color Scheme*/
+/*
+    grey color for BG : lightgray
+    grey color for BTn Border: rgb(128,128,128)
+    lightgray BG color on Focus: rgba(212,208,200,255)
+    border on top-> white
+*/
+
+
+/*links*/
+a {
+  border: solid 2pt transparent;
+  color: inherit;
+  margin: 2pt;
+}
+
+a:hover {
+  border: solid 2pt;
+  margin: 2pt;
+  text-decoration: none;
+  border-top-color: white;
+  border-left-color: white;
+  border-bottom-color: rgb(128,128,128);
+  border-right-color: rgb(128,128,128);
+  background-color: rgba(212,208,200,255);
+  
+}
+  a:active {
+    border: solid 2pt;
+    margin: 2pt;
+    text-decoration: none;
+    border-top-color: rgb(128,128,128);
+    border-left-color: rgb(128,128,128);
+    border-bottom-color: white;
+    border-right-color: white;
+  }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+/*menu bar*/
+
+/*Sample for "normal " btns*/
+/*#menuBar .menuBtn {
+  text-decoration: none;
+  border-top-color: white;
+  border-left-color: white;
+  border-bottom-color: rgb(128,128,128);
+  border-right-color: rgb(128,128,128);
+  background-color: rgba(212,208,200,255);
+  margin: 2pt;
+}
+  #menuBar.menuBtn:after {
+  border-right-color: #FF404040;
+  border-bottom-color: #FF404040;
+}
+
+  #menuBar .menuBtn:hover {
+    border-style: solid;
+    border-top-color: rgb(128,128,128);
+    border-left-color: rgb(128,128,128);
+    border-bottom-color: white;
+    border-right-color: white;
+  }*/
+.menuBar {
+  border: solid 1pt;
+  border-top-color:transparent;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  border-bottom-color: rgb(128,128,128);
+  height: 20px;
+}
+
+/*content & elements*/
+
+
+.container {
+  margin: 1pt;
+  height: 100%;
+  width: 100%;
+}
+
+#imgSide {
+  float: left;
+  background: gray;
+  width: 20%;
+  overflow: auto;
+  border: 1pt;
+}
+
+#content {
+  border: 1pt;
+  padding: 1pt;
+  float: left;
+  background: white;
+  height: 100%;
+  width: 79%;
+  margin-left: 2pt;
+}

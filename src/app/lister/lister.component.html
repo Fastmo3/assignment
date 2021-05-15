@@ -1,0 +1,22 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Owner</th>
+      <th>Grade</th>
+    </tr>    
+  </thead>
+  <tr *ngFor="let mgr of mgrs">
+    <td>{{mgr._id}}</td>
+    <td>{{mgr.name}}</td>
+    <td>{{mgr.owner}}</td>
+    <td>{{mgr.grade}}</td>
+    <td>
+      <button (click)="delMag(mgr)" class="delBtn">Delete</button>
+    </td>
+  </tr>
+</table>
+<br />
+<button routerLinkActive="active" class="btn" routerLink="/add">Add InvMgr</button>
+<button class="btn" routerLink="/login">Back</button>
